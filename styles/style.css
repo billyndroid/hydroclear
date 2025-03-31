@@ -37,12 +37,12 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #4AD295; /* Fresh Mint Green */
+    color: #b6ac4b; /* Updated Green */
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to bottom, #4AD295, #65AFFF); /* Mint Green to Sky Blue */
+    background: linear-gradient(to bottom, #b6ac4b, #65AFFF); /* Updated Green to Sky Blue */
     color: #fff;
     text-align: center;
     padding: 4rem 2rem;
@@ -71,7 +71,7 @@ header nav ul li a:hover {
 }
 
 .hero .btn:hover {
-    background-color: #4AD295; /* Fresh Mint Green */
+    background-color: #b6ac4b; /* Dill Green */
     transform: scale(1.05); /* Slight zoom effect */
 }
 
@@ -81,7 +81,7 @@ header nav ul li a:hover {
 }
 
 .hero .btn.secondary:hover {
-    background-color: #4AD295; /* Fresh Mint Green */
+    background-color: #b6ac4b; /* Updated Green */
 }
 
 /* Services Section */
@@ -105,7 +105,7 @@ header nav ul li a:hover {
 
 .service-card {
     background: #ffffff;
-    border: 1px solid #4AD295; /* Fresh Mint Green */
+    border: 1px solid #b6ac4b; /* Updated Green */
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 4px 6px rgba(255, 105, 97, 0.2);
@@ -114,7 +114,7 @@ header nav ul li a:hover {
 
 .service-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(74, 210, 149, 0.3); /* Mint Green shadow */
+    box-shadow: 0 6px 10px rgba(182, 172, 75, 0.3); /* Updated Green shadow */
 }
 
 .service-card img {
@@ -135,7 +135,7 @@ service-card h3 {
 
 /* Call to Action Section */
 .cta {
-    background: #4AD295; /* Fresh Mint Green */
+    background: #b6ac4b; /* Updated Green */
     color: #fff;
     text-align: center;
     padding: 2rem;
@@ -217,7 +217,7 @@ footer nav a {
 }
 
 footer nav a:hover {
-    color: #4AD295; /* Fresh Mint Green */
+    color: #b6ac4b; /* Updated Green */
 }
 
 footer .social-icons a {
@@ -227,5 +227,5 @@ footer .social-icons a {
 }
 
 footer .social-icons a:hover {
-    color: #4AD295; /* Fresh Mint Green */
+    color: #b6ac4b; /* Updated Green */
 }

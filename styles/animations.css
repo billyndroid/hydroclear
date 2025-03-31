@@ -27,3 +27,21 @@
         transform: translateY(0);
     }
 }
+
+@keyframes btnColorChange {
+    from {
+        background-color: #FFCC00; /* Highlight Color */
+    }
+    to {
+        background-color: #b6ac4b; /* Updated Green */
+    }
+}
+
+@keyframes menuColorChange {
+    from {
+        background-color: #0A2463; /* Main Color */
+    }
+    to {
+        background-color: #65AFFF; /* Sky Blue */
+    }
+}
