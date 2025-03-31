@@ -3,14 +3,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Light blue background */
-    color: #00274d; /* Dark blue text */
+    background-color: #65AFFF; /* Sky Blue */
+    color: #0A2463; /* Navy Blue */
     line-height: 1.6;
 }
 
 header {
-    background-color: #00274d; /* Dark blue */
-    color: #ffffff; /* White text */
+    background-color: #0A2463; /* Navy Blue */
+    color: #FFFFFF; /* White text */
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@ header {
 header .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffcc00; /* Yellow */
+    color: #FFCC00; /* Bright Yellow */
 }
 
 header nav ul {
@@ -30,19 +30,19 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: #ffffff; /* White text */
+    color: #FFFFFF; /* White text */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color: #ff6600; /* Orange */
+    color: #4AD295; /* Fresh Mint Green */
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+    background: linear-gradient(to bottom, #4AD295, #65AFFF); /* Mint Green to Sky Blue */
     color: #fff;
     text-align: center;
     padding: 4rem 2rem;
@@ -59,8 +59,8 @@ header nav ul li a:hover {
 }
 
 .hero .btn {
-    background-color: #ffcc00; /* Yellow */
-    color: #00274d; /* Dark blue */
+    background-color: #FFCC00; /* Bright Yellow */
+    color: #0A2463; /* Navy Blue */
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -71,30 +71,30 @@ header nav ul li a:hover {
 }
 
 .hero .btn:hover {
-    background-color: #ff6600; /* Orange */
+    background-color: #4AD295; /* Fresh Mint Green */
     transform: scale(1.05); /* Slight zoom effect */
 }
 
 .hero .btn.secondary {
-    background-color: #00274d; /* Dark blue */
+    background-color: #0A2463; /* Navy Blue */
     color: #ffffff; /* White text */
 }
 
 .hero .btn.secondary:hover {
-    background-color: #ff6600; /* Orange */
+    background-color: #4AD295; /* Fresh Mint Green */
 }
 
 /* Services Section */
 .services {
     padding: 2rem;
-    background: #fff3e0;
+    background: #FFCC00; /* Bright Yellow */
     text-align: center;
 }
 
 .services h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #ff6f61;
+    color: #0A2463; /* Navy Blue */
 }
 
 .service-grid {
@@ -105,7 +105,7 @@ header nav ul li a:hover {
 
 .service-card {
     background: #ffffff;
-    border: 1px solid #ffccbc;
+    border: 1px solid #4AD295; /* Fresh Mint Green */
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 4px 6px rgba(255, 105, 97, 0.2);
@@ -114,7 +114,7 @@ header nav ul li a:hover {
 
 .service-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(255, 105, 97, 0.3);
+    box-shadow: 0 6px 10px rgba(74, 210, 149, 0.3); /* Mint Green shadow */
 }
 
 .service-card img {
@@ -135,7 +135,7 @@ service-card h3 {
 
 /* Call to Action Section */
 .cta {
-    background: #ff6f61;
+    background: #4AD295; /* Fresh Mint Green */
     color: #fff;
     text-align: center;
     padding: 2rem;
@@ -152,8 +152,8 @@ service-card h3 {
 }
 
 .cta .btn {
-    background-color: #ffcc00; /* Yellow */
-    color: #00274d; /* Dark blue */
+    background-color: #FFCC00; /* Bright Yellow */
+    color: #0A2463; /* Navy Blue */
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -164,23 +164,23 @@ service-card h3 {
 }
 
 .cta .btn:hover {
-    background-color: #ff6600; /* Orange */
+    background-color: #65AFFF; /* Sky Blue */
     transform: scale(1.05); /* Slight zoom effect */
 }
 
 .cta .btn.secondary {
-    background-color: #00274d; /* Dark blue */
+    background-color: #0A2463; /* Navy Blue */
     color: #ffffff; /* White text */
 }
 
 .cta .btn.secondary:hover {
-    background-color: #ff6600; /* Orange */
+    background-color: #65AFFF; /* Sky Blue */
 }
 
 /* Trivia Section */
 .trivia {
-    background: #e3f2fd; /* Light blue */
-    color: #00274d; /* Dark blue */
+    background: #65AFFF; /* Sky Blue */
+    color: #0A2463; /* Navy Blue */
     text-align: center;
     padding: 2rem;
 }
@@ -203,29 +203,29 @@ service-card h3 {
 
 /* Footer */
 footer {
-    background: #e64a19;
+    background: #0A2463; /* Navy Blue */
     color: #fff;
     text-align: center;
     padding: 1rem;
 }
 
 footer nav a {
-    color: #ffccbc;
+    color: #FFCC00; /* Bright Yellow */
     text-decoration: none;
     margin: 0 0.5rem;
     font-size: 0.9rem;
 }
 
 footer nav a:hover {
-    color: #fff;
+    color: #4AD295; /* Fresh Mint Green */
 }
 
 footer .social-icons a {
-    color: #ffccbc;
+    color: #FFCC00; /* Bright Yellow */
     text-decoration: none;
     margin: 0 0.5rem;
 }
 
 footer .social-icons a:hover {
-    color: #fff;
+    color: #4AD295; /* Fresh Mint Green */
 }
